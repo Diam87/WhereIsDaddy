@@ -184,8 +184,8 @@ export default function FlightTrackerSync() {
           <div className="line"></div>
           <div className="line"></div>
         </div>
-        <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
-          <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full">
+        <div className="min-h-screen flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
+          <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 max-w-md w-full">
             <div className="text-center mb-8">
               <div className="w-16 h-16 mx-auto mb-4 text-blue-600"><Plane /></div>
               <h1 className="text-3xl font-bold text-gray-800 mb-2">Flight Tracker Sync</h1>
@@ -232,8 +232,8 @@ export default function FlightTrackerSync() {
           <div className="line"></div>
           <div className="line"></div>
         </div>
-        <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
-          <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full">
+        <div className="min-h-screen flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
+          <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 max-w-md w-full">
             <button
               onClick={() => {
                 setStep('choose');
@@ -312,8 +312,8 @@ export default function FlightTrackerSync() {
           <div className="line"></div>
           <div className="line"></div>
         </div>
-        <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
-          <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full">
+        <div className="min-h-screen flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
+          <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 max-w-md w-full">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-2xl font-bold text-gray-800">Send Flight</h2>
               <button
@@ -380,8 +380,8 @@ export default function FlightTrackerSync() {
           <div className="line"></div>
           <div className="line"></div>
         </div>
-        <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900 flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
-          <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-2xl w-full">
+        <div className="min-h-screen flex items-center justify-center p-4" style={{position: 'relative', zIndex: 1}}>
+          <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 max-w-2xl w-full">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-2xl font-bold text-gray-800">Receiver Mode</h2>
               <button
